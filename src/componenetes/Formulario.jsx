@@ -58,16 +58,16 @@ const formulario = () => {
                 </div>
                 <div className="form-one">
                     <label>Correo</label>
-                    <input type="text" name="e-mail" className="form-control" onChange={(e) => setEmail(e.target.value)} value={email} />
+                    <input type="email" name="e-mail" className="form-control" onChange={(e) => setEmail(e.target.value)} value={email} />
                 </div>
                 <div className="form-one">
                     <label>Contraseña</label>
-                    <input type="text" name="password" className="form-control" onChange={(e) => setPassword(e.target.value)} value={password} />
+                    <input type="password" name="password" className="form-control" onChange={(e) => setPassword(e.target.value)} value={password} />
                 </div>
                 <div className="form-one">
                     <label>Repetir Contraseña</label>
                     <input
-                        type="text"
+                        type="password"
                         name="repeat password"
                         className="form-control"
                         onChange={(e) => setRepeatpassword(e.target.value)}
